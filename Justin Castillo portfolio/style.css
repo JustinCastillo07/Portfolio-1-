@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+#home{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(img/background.jpg);
+}
+.hero-title{
+    padding-top: 1.5rem;
+    display: grid;
+    gap: 1rem;
+    max-width: 550px;
+}
+.hero-title h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 1em;
+    color: #fff;
+    transition: 0.5s ease;
+}
+.hero-title h1:hover{
+    transform:translate(30px);
+}
+.hero-title p{
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-top: 0em;
+    margin-bottom: 3em;
+    transition: 0.5s ease;
+    color: #fff;
+}
+.hero-title p:hover{
+    font-size: medium;
+    transform:translate(35px);
+    text-decoration: underline #fff;
+}
+img{
+    max-width: 500px;
+    height: 100% auto;
+    width: 100%;
+    margin-top: 4em;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease;
+}
+img:hover{
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+.hero-title .portfolio button{
+    padding: 10px 30px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(6, 6, 6);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.hero-title .portfolio button:hover{
+    text-decoration: underline;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    transform: translate(20px);
+}
+#services{
+    width: 80%;
+    margin: 80px auto;
+}
+.services{
+    text-align: center;
+}
+.services button{
+    border-radius: 10px 5px;
+    box-shadow: 5px 5px 5px rgb(6, 6, 6);
+    transition: 0.5s ease;
+}
+.services button:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+.services h2{
+    font-size: 2.6rem;
+    letter-spacing: 3px;
+}
+.services p{
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-top: 0.7em;
+    transition: 0.5s ease;
+}
+.services p:hover{
+    text-decoration: underline #000;
+    transform: translate(10px);
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    margin-top: 4em;
+    border-radius: 20%;
+    padding: 60px 60px;
+    width: 220px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease;
+    background-image: url(img/background.jpg);
+    color: #fff;
+}
+.box:hover{
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    transform: translate(10px);
+}
+.box h2{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+}
+.box h2:hover{
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+.box p{
+    margin-top: 1em;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    transition: 0.5s ease;
+}
+.box p:hover{
+    transform: translate(10px);
+    text-decoration: underline;
+}
+.visit button{
+    margin-top: 3em;
+    padding: 8px 28px;
+    letter-spacing: 3px;
+    border-radius: 10%;
+    border: solid 1px #080808;
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+    transition: 0.5s ease;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.visit button:hover{
+    text-decoration: underline;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    background-color: #000;
+    color: #fff;
+    transform: translate(10px);
+}
+
+#certificates{
+    width: 80%;
+    margin: 80px auto;
+}
+.certificates{
+    text-align: center;
+}
+.certificates button{
+    border-radius: 10px 5px;
+    transition: 0.5s ease;
+    box-shadow: 5px 5px 5px rgb(6, 6, 6);
+}
+.certificates button:hover{
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    transform: translateY(-20px);
+}
+.certificates h2{
+    font-size: 2.6rem;
+    letter-spacing: 3px;
+}
+.certificates p{
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    margin-top: 1em;
+    transition: 0.5s ease;
+}
+.certificates p:hover{
+    text-decoration: underline;
+    transform: translate(10px);
+}
+.certificate{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.certificate img{
+    border-radius: 10%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    height: 100% auto;
+    width: 100%;
+    max-width: 400px;
+    transition: 0.5s ease;
+}
+.certificate img:hover{
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 120px auto;
+    background-color: rgba(178, 175, 175, 0.886);
+    border-radius: 20px;
+    transition: 0.5s ease;
+}
+#about:hover{
+    background-color: #fff;
+}
+.aboutimg{
+    height: 100% auto;
+    width: 100%;
+    max-width: 500px;
+    margin-top: -8em;
+}
+.about{
+    max-width: 800px;
+}
+.about h2{
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+    line-height: 1em;   
+    transition: 0.5s ease;
+}
+.about h2:hover{
+    text-decoration: underline 2px;
+    transform: translateX(20px);
+}
+.about p{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+.about p:hover{
+    text-decoration: underline 2px;
+    transform: translateX(20px);
+}
+.about .text{
+    font-size: 0.9rem;
+    margin-top: .5em;
+    letter-spacing: 2px;
+    width: 90%;
+    margin-bottom: 3em;
+}
+.resume button{
+    padding: 10px 30px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.resume button:hover{
+    text-decoration: underline 2px;
+    color: #fff;
+    background-color: #000;
+    transform: translateX(20px);
+}
+#contacts{
+    width: 90%;
+    margin: 90px auto;
+}
+.contacts{
+    text-align: center;
+}
+.contacts button{
+    border-radius: 10px 5px;
+    transition: 0.5s ease;
+    box-shadow: 5px 5px 5px rgb(6, 6, 6);
+}
+.contacts button:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+}
+.contact{
+    border-radius: 8%;
+    padding: 60px 60px;
+    width: 220px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease;
+    background-image: url(img/background.jpg);
+    color: #fff;
+}
+.contact:hover{
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+.contacts h1{
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+}
+.contact h2{
+    font-size: 1.5rem;
+    margin-top: 0.5em;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+}
+.contact h2:hover{
+    transform: translateY(-10px);
+    text-decoration: underline;
+}
+.contacts p{
+    margin-top: 0.3em;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+.contacts p:hover{
+    transform: translate(10px);
+    text-decoration: underline;
+}
+
+ 
+
+@media screen and (max-width:850px){
+    #home{
+        flex-direction: column;
+    }
+    .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .certificate{
+        flex-direction: column;
+    }
+    #about{
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: 80px auto;
+    }
+    .text{
+        width: 80%;
+    }
+    .aboutimg img{
+        margin-top: 7em;
+    }
+    .container{
+        flex-direction: column;
+        gap: 3em;
+        margin-top: 3.5em;
+    }
+}
+
+@media screen and (max-width:1075px) {
+    #services{
+        width: 90%;
+        margin: 90px auto;
+    }
+    .box{
+        padding: 43px 43px;
+        
+    }
+    .container{
+        gap: 2em;
+    }
+    #contacts{
+        width: 95%;
+        margin: 95px auto;
+    }
+}
